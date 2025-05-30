@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GrowWise | Lead Generation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fff;
+      color: #1a1a1a;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+      border-bottom: 1px solid #eee;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo img {
+      height: 40px;
+      margin-right: 10px;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #1a1a1a;
+    }
+    .cta-btn {
+      background-color: #2d8a48;
+      color: #fff;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 3rem 2rem;
+    }
+    .hero-text {
+      max-width: 600px;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+    }
+    .hero img {
+      max-width: 300px;
+      margin-top: 2rem;
+    }
+    .features {
+      background-color: #f9f9f9;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    .features h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    .feature-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .feature {
+      max-width: 250px;
+    }
+    .feature img {
+      height: 40px;
+      margin-bottom: 1rem;
+    }
+    .contact {
+      padding: 2rem;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="growwise-logo.png" alt="GrowWise Logo" />
+    <strong>GrowWise</strong>
+  </div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <button class="cta-btn">Contact</button>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Generate More Leads and Grow Your Business</h1>
+    <p>Our lead generation strategies help you reach new customers and increase revenue.</p>
+    <button class="cta-btn">Get Started</button>
+  </div>
+  <img src="growwise-icon.png" alt="Growth Icon" />
+</section>
+
+<section class="features">
+  <h2>Why Choose Us?</h2>
+  <div class="feature-grid">
+    <div class="feature">
+      <img src="icon-strategy.png" alt="Strategy Icon" />
+      <h3>Proven Strategies</h3>
+      <p>We use effective and tested strategies to generate high-quality leads for your business.</p>
+    </div>
+    <div class="feature">
+      <img src="icon-expert.png" alt="Expert Icon" />
+      <h3>Expert Team</h3>
+      <p>Our experienced professionals are dedicated to helping your business grow.</p>
+    </div>
+    <div class="feature">
+      <img src="icon-gear.png" alt="Gear Icon" />
+      <h3>Customized Solutions</h3>
+      <p>We tailor our lead generation services to meet your unique needs.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Get in Touch</h2>
+  <p>Contact us today to learn how we can help your business grow.</p>
+  <button class="cta-btn">Contact Us</button>
+</section>
+
+<footer>
+  &copy; 2025 GrowWise. All rights reserved.
+</footer>
+
+</body>
+</html>
